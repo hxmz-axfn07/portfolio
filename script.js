@@ -61,7 +61,7 @@ const content = {
         "Reached 93.77% F1, 94.06% accuracy, 0.983 ROC-AUC, and 0.979 PR-AUC",
         "Generated confusion matrix, ROC/PR curves, training curves, and final model artifacts",
       ],
-      github: "",
+      github: "https://github.com/hxmz-axfn07/sarcasm-detection-bert",
       live: "",
     },
     {
