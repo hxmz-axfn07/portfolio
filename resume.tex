@@ -1,0 +1,219 @@
+%-------------------------
+% Resume in Latex
+% Author : Harshibar
+% Based off of: https://github.com/jakeryang/resume
+% License : MIT
+%------------------------
+
+\documentclass[letterpaper,11pt]{article}
+
+\usepackage{latexsym}
+\usepackage[empty]{fullpage}
+\usepackage{titlesec}
+\usepackage{marvosym}
+\usepackage[usenames,dvipsnames]{color}
+\usepackage{verbatim}
+\usepackage{enumitem}
+\usepackage[hidelinks]{hyperref}
+\usepackage{fancyhdr}
+\usepackage[english]{babel}
+\usepackage{tabularx}
+\usepackage{fontawesome5}
+\usepackage[scale=0.90,lf]{FiraMono}
+
+\definecolor{light-grey}{gray}{0.83}
+\definecolor{dark-grey}{gray}{0.3}
+\definecolor{text-grey}{gray}{.08}
+
+\DeclareRobustCommand{\ebseries}{\fontseries{eb}\selectfont}
+\DeclareTextFontCommand{\texteb}{\ebseries}
+
+\usepackage{contour}
+\usepackage[normalem]{ulem}
+\renewcommand{\ULdepth}{1.8pt}
+\contourlength{0.8pt}
+\newcommand{\myuline}[1]{%
+  \uline{\phantom{#1}}%
+  \llap{\contour{white}{#1}}%
+}
+
+\usepackage{tgheros}
+\renewcommand*\familydefault{\sfdefault}
+\usepackage[T1]{fontenc}
+
+\pagestyle{fancy}
+\fancyhf{}
+\fancyfoot{}
+\renewcommand{\headrulewidth}{0pt}
+\renewcommand{\footrulewidth}{0pt}
+
+\addtolength{\oddsidemargin}{-0.5in}
+\addtolength{\evensidemargin}{0in}
+\addtolength{\textwidth}{1in}
+\addtolength{\topmargin}{-.5in}
+\addtolength{\textheight}{1.0in}
+
+\urlstyle{same}
+\raggedbottom
+\raggedright
+\setlength{\tabcolsep}{0in}
+
+\titleformat {\section}{
+    \bfseries \vspace{2pt} \raggedright \large
+}{}{0em}{}[\color{light-grey} {\titlerule[2pt]} \vspace{-4pt}]
+
+\newcommand{\resumeItem}[1]{
+  \item \small{#1}\vspace{-2pt}
+}
+
+\newcommand{\resumeSubheading}[4]{
+  \vspace{-1pt}\item
+    \begin{tabular*}{\textwidth}[t]{l@{\extracolsep{\fill}}r}
+      \textbf{#1} & {\color{dark-grey}\small #2}\vspace{1pt}\\
+      \textit{#3} & {\color{dark-grey} \small #4}\\
+    \end{tabular*}\vspace{-4pt}
+}
+
+\newcommand{\resumeSubSubheading}[2]{
+    \item
+    \begin{tabular*}{\textwidth}{l@{\extracolsep{\fill}}r}
+      \textit{\small#1} & \textit{\small #2} \\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeProjectHeading}[2]{
+    \item
+    \begin{tabular*}{\textwidth}{l@{\extracolsep{\fill}}r}
+      #1 & {\color{dark-grey}\small #2} \\
+    \end{tabular*}\vspace{-4pt}
+}
+
+\newcommand{\resumeSubItem}[1]{\resumeItem{#1}\vspace{-4pt}}
+\renewcommand\labelitemii{$\vcenter{\hbox{\tiny$\bullet$}}$}
+
+\newcommand{\resumeSubHeadingListStart}{\begin{itemize}[leftmargin=0in, label={}]}
+\newcommand{\resumeSubHeadingListEnd}{\end{itemize}}
+\newcommand{\resumeItemListStart}{\begin{itemize}[leftmargin=30pt,itemsep=1pt,topsep=0pt]}
+\newcommand{\resumeItemListEnd}{\end{itemize}\vspace{0pt}}
+
+\color{text-grey}
+
+\begin{document}
+
+\begin{center}
+    \textbf{\Huge Hamza Arfin} \\ \vspace{5pt}
+    \small \faPhone* \texttt{+91 99993 52349} \hspace{1pt} $|$
+    \hspace{1pt} \faEnvelope \hspace{2pt} \texttt{arfinhamza987@gmail.com} \hspace{1pt} $|$
+\hspace{1pt} \faGithub \hspace{2pt} \href{https://github.com/hxmz-axfn07}{\texttt{github.com/hxmz-axfn07}} \hspace{1pt} $|$
+    \hspace{1pt} \faMapMarker* \hspace{2pt}\texttt{New Delhi, India}
+    \\ \vspace{-3pt}
+\end{center}
+
+\section{ABOUT}
+\small{
+Full-stack developer experienced in building web applications using Python, Flask, and MySQL.
+Skilled in REST API development, database design, and backend systems with projects in recommendation systems, NLP, and data-driven applications.
+}
+
+\section{EXPERIENCE}
+\resumeSubHeadingListStart
+
+\resumeSubheading
+{FLAme NLP Research Lab, IIIT Delhi}{July 2025 -- September 2025}
+{Undergraduate Research Intern}{New Delhi, India}
+\resumeItemListStart
+\resumeItem{Developed and deployed the official lab website (\href{https://flamelab.iiitd.edu.in/}{FLAme NLP Lab}) using \textbf{Jekyll}}
+\resumeItem{Built a scalable static website with modular components for managing research updates, publications, and team information}
+\resumeItem{Structured content using templates and data files to enable easy updates without modifying core code}
+\resumeItem{Improved usability, performance, and maintainability of the lab's digital presence}
+\resumeItemListEnd
+
+\resumeSubheading
+{Software Development Projects}{2023 -- Present}
+{Full-Stack Developer}{New Delhi, India}
+\resumeItemListStart
+\resumeItem{Built full-stack web applications using \textbf{Python, Flask, MySQL, HTML, CSS, JavaScript}}
+\resumeItem{Developed \textbf{REST APIs}, authentication systems, and database workflows}
+\resumeItem{Designed backend architecture and relational schemas using \textbf{MySQL}}
+\resumeItem{Implemented responsive UI and managed version control with \textbf{Git/GitHub}}
+\resumeItemListEnd
+
+\resumeSubHeadingListEnd
+
+\section{PROJECTS}
+\resumeSubHeadingListStart
+
+\resumeProjectHeading
+{\textbf{BERT Sarcasm Detection Classifier}}{May 2026}
+\resumeItemListStart
+\resumeItem{Fine-tuned \textbf{bert-base-uncased} for sarcasm detection using headline and balanced sarcasm datasets}
+\resumeItem{Trained \textbf{BertForSequenceClassification} with class weighting and optimized threshold tuning}
+\resumeItem{Reached \textbf{93.77\% F1}, \textbf{94.06\% accuracy}, \textbf{0.983 ROC-AUC}, and \textbf{0.979 PR-AUC}}
+\resumeItem{Generated confusion matrix, ROC/PR curves, training curves, and final model artifacts}
+\resumeItemListEnd
+
+\resumeProjectHeading
+{\textbf{Hybrid Movie Recommendation System} $|$ \href{https://github.com/hxmz-axfn07/movie-recommendation-system}{GitHub}}{March 2026}
+\resumeItemListStart
+\resumeItem{Built a recommendation platform using \textbf{Python, Flask, HTML, CSS, JavaScript}}
+\resumeItem{Implemented hybrid recommender using \textbf{KNN collaborative filtering} on the \textbf{MovieLens dataset (100k+ ratings)}}
+\resumeItem{Integrated \textbf{TMDB API} and built REST endpoints serving movie metadata and posters}
+\resumeItemListEnd
+
+\resumeProjectHeading
+{\textbf{Streamly -- Streaming Aggregator} $|$ \href{https://github.com/hxmz-axfn07/Streamly}{GitHub}}{November 2025}
+\resumeItemListStart
+\resumeItem{Developed a streaming search platform using \textbf{Flask} and the \textbf{TMDB API}}
+\resumeItem{Implemented real-time search suggestions and optimized API requests with rate limiting}
+\resumeItemListEnd
+
+\resumeProjectHeading
+{\textbf{Flask Hospital Management System}}{August 2024}
+\resumeItemListStart
+\resumeItem{Built hospital management web app using \textbf{Flask, MySQL, SQLAlchemy}}
+\resumeItem{Designed relational database schema managing patient, doctor, and appointment records across multiple tables}
+\resumeItemListEnd
+
+\resumeProjectHeading
+{\textbf{Python--MySQL Hospital Database System}}{October 2023}
+\resumeItemListStart
+\resumeItem{Developed hospital database system using \textbf{Python} and \textbf{MySQL}}
+\resumeItem{Implemented CRUD operations for patient, doctor, and appointment management}
+\resumeItemListEnd
+
+\resumeSubHeadingListEnd
+
+\section{EDUCATION}
+\resumeSubHeadingListStart
+  \resumeSubheading
+    {Jamia Hamdard University}{2023 -- 2027}
+    {Bachelor of Technology in Computer Science and Engineering}{New Delhi, India}
+      \resumeItemListStart
+      \resumeItem{\textbf{Relevant Coursework}: Data Structures, Algorithms, Database Systems, Software Engineering}
+      \resumeItem{Focused on web development, backend systems, and database-driven applications}
+      \resumeItemListEnd
+
+  \resumeSubheading
+    {Dev Samaj Modern School - 2}{2021 -- 2023}
+    {Senior Secondary School}{New Delhi, India}
+
+  \resumeSubheading
+    {Dev Samaj Modern School - 2}{2019 -- 2021}
+    {Secondary School}{New Delhi, India}
+\resumeSubHeadingListEnd
+
+\section{SKILLS}
+
+\textbf{Languages:} Python, C, C++, JavaScript, SQL
+
+\textbf{Web:} Flask, HTML, CSS, REST APIs, Backend Development, Jekyll
+
+\textbf{ML/NLP:} NumPy, Pandas, Scikit-learn, BERT, Transformers, PyTorch
+
+\textbf{Database:} MySQL, SQLAlchemy
+
+\textbf{Tools:} Git, GitHub
+
+\textbf{Concepts:} Data Structures, Algorithms, CRUD, API Integration
+
+\end{document}

@@ -6,6 +6,7 @@ const content = {
     tagline: "Building clean APIs, scalable backends, and useful full-stack apps.",
     email: "arfinhamza987@gmail.com",
     location: "New Delhi, India",
+    resume_url: "resume.pdf",
   },
   socials: {
     github: "https://github.com/hxmz-axfn07",
@@ -49,6 +50,20 @@ const content = {
     },
   ],
   projects: [
+    {
+      name: "BERT Sarcasm Detection Classifier",
+      date: "May 2026",
+      description:
+        "Fine-tuned bert-base-uncased for sarcasm detection using headline and balanced sarcasm datasets",
+      tech: ["Python", "BERT", "Transformers", "PyTorch", "Scikit-learn"],
+      highlights: [
+        "Trained BertForSequenceClassification with class weighting and threshold tuning",
+        "Reached 93.77% F1, 94.06% accuracy, 0.983 ROC-AUC, and 0.979 PR-AUC",
+        "Generated confusion matrix, ROC/PR curves, training curves, and final model artifacts",
+      ],
+      github: "",
+      live: "",
+    },
     {
       name: "Hybrid Movie Recommendation System",
       date: "March 2026",
@@ -184,6 +199,8 @@ const icons = {
     '<path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"></path><rect width="4" height="12" x="2" y="9"></rect><circle cx="4" cy="4" r="2"></circle>',
   mail:
     '<path d="m22 7-8.991 5.727a2 2 0 0 1-2.009 0L2 7"></path><rect x="2" y="4" width="20" height="16" rx="2"></rect>',
+  "file-text":
+    '<path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"></path><path d="M14 2v6h6"></path><path d="M16 13H8"></path><path d="M16 17H8"></path><path d="M10 9H8"></path>',
   "arrow-down": '<path d="M12 5v14"></path><path d="m19 12-7 7-7-7"></path>',
   "external-link":
     '<path d="M15 3h6v6"></path><path d="M10 14 21 3"></path><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"></path>',
@@ -310,6 +327,7 @@ function renderHero() {
           <a href="${content.socials.github}" target="_blank" rel="noopener noreferrer" class="p5-hero__social-link">${icon("github", 20)}<span>GitHub</span></a>
           <a href="${content.socials.linkedin}" target="_blank" rel="noopener noreferrer" class="p5-hero__social-link">${icon("linkedin", 20)}<span>LinkedIn</span></a>
           <a href="mailto:${content.personal.email}" class="p5-hero__social-link" data-copy-email="${content.personal.email}">${icon("mail", 20)}<span>Email</span></a>
+          <a href="${content.personal.resume_url}" target="_blank" rel="noopener noreferrer" class="p5-hero__social-link">${icon("file-text", 20)}<span>Resume</span></a>
         </div>
         <div class="p5-hero__location"><span>${content.personal.location}</span></div>
       </div>
