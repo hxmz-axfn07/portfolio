@@ -10,7 +10,7 @@ const content = {
   },
   socials: {
     github: "https://github.com/hxmz-axfn07",
-    linkedin: "https://www.linkedin.com/in/hamza-a-31b83828a/",
+    linkedin: "https://www.linkedin.com/in/hxmz-axfn07/",
   },
   about: {
     headline: "About Me",
