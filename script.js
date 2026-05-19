@@ -113,7 +113,7 @@ const content = {
         "Developed hospital database system using Python and MySQL",
         "Implemented CRUD operations for patient, doctor, and appointment management",
       ],
-      github: "",
+      github: "https://github.com/hxmz-axfn07/hospital-management-crud",
       live: "",
     },
   ],
