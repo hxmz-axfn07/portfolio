@@ -5,7 +5,7 @@
 % License : MIT
 %------------------------
 
-\documentclass[letterpaper,11pt]{article}
+\documentclass[letterpaper,10pt]{article}
 
 \usepackage{latexsym}
 \usepackage[empty]{fullpage}
@@ -50,8 +50,8 @@
 \addtolength{\oddsidemargin}{-0.5in}
 \addtolength{\evensidemargin}{0in}
 \addtolength{\textwidth}{1in}
-\addtolength{\topmargin}{-.5in}
-\addtolength{\textheight}{1.0in}
+\addtolength{\topmargin}{-.6in}
+\addtolength{\textheight}{1.2in}
 
 \urlstyle{same}
 \raggedbottom
@@ -59,11 +59,11 @@
 \setlength{\tabcolsep}{0in}
 
 \titleformat {\section}{
-    \bfseries \vspace{2pt} \raggedright \large
-}{}{0em}{}[\color{light-grey} {\titlerule[2pt]} \vspace{-4pt}]
+    \bfseries \vspace{0pt} \raggedright \large
+}{}{0em}{}[\color{light-grey} {\titlerule[2pt]} \vspace{-6pt}]
 
 \newcommand{\resumeItem}[1]{
-  \item \small{#1}\vspace{-2pt}
+  \item \small{#1}\vspace{-3pt}
 }
 
 \newcommand{\resumeSubheading}[4]{
@@ -71,7 +71,7 @@
     \begin{tabular*}{\textwidth}[t]{l@{\extracolsep{\fill}}r}
       \textbf{#1} & {\color{dark-grey}\small #2}\vspace{1pt}\\
       \textit{#3} & {\color{dark-grey} \small #4}\\
-    \end{tabular*}\vspace{-4pt}
+    \end{tabular*}\vspace{-6pt}
 }
 
 \newcommand{\resumeSubSubheading}[2]{
@@ -85,7 +85,7 @@
     \item
     \begin{tabular*}{\textwidth}{l@{\extracolsep{\fill}}r}
       #1 & {\color{dark-grey}\small #2} \\
-    \end{tabular*}\vspace{-4pt}
+    \end{tabular*}\vspace{-6pt}
 }
 
 \newcommand{\resumeSubItem}[1]{\resumeItem{#1}\vspace{-4pt}}
@@ -93,8 +93,8 @@
 
 \newcommand{\resumeSubHeadingListStart}{\begin{itemize}[leftmargin=0in, label={}]}
 \newcommand{\resumeSubHeadingListEnd}{\end{itemize}}
-\newcommand{\resumeItemListStart}{\begin{itemize}[leftmargin=30pt,itemsep=1pt,topsep=0pt]}
-\newcommand{\resumeItemListEnd}{\end{itemize}\vspace{0pt}}
+\newcommand{\resumeItemListStart}{\begin{itemize}[leftmargin=24pt,itemsep=0pt,topsep=0pt]}
+\newcommand{\resumeItemListEnd}{\end{itemize}\vspace{-2pt}}
 
 \color{text-grey}
 
@@ -111,23 +111,19 @@
 
 \section{ABOUT}
 \small{
-Full-stack developer experienced in building web applications using Python, Flask, and MySQL.
-Skilled in REST API development, database design, and backend systems with projects in recommendation systems, NLP, and data-driven applications.
+Full-stack developer skilled in Python, Flask, MySQL, REST APIs, database design, and data-driven applications across NLP and recommendation systems.
 }
 
 \section{SKILLS}
 
-\textbf{Languages:} Python, C, C++, JavaScript, SQL
-
-\textbf{Web:} Flask, HTML, CSS, REST APIs, Backend Development, Jekyll
-
-\textbf{ML/NLP:} NumPy, Pandas, Scikit-learn, BERT, Transformers, PyTorch
-
-\textbf{Database:} MySQL, SQLAlchemy
-
-\textbf{Tools:} Git, GitHub
-
+\small{
+\textbf{Languages:} Python, C, C++, JavaScript, SQL \\
+\textbf{Web:} Flask, HTML, CSS, REST APIs, Backend Development, Jekyll \\
+\textbf{ML/NLP:} NumPy, Pandas, Scikit-learn, BERT, Transformers, PyTorch \\
+\textbf{Database:} MySQL, SQLAlchemy \quad
+\textbf{Tools:} Git, GitHub \quad
 \textbf{Concepts:} Data Structures, Algorithms, CRUD, API Integration
+}
 
 \section{EXPERIENCE}
 \resumeSubHeadingListStart
@@ -172,13 +168,6 @@ Skilled in REST API development, database design, and backend systems with proje
 \resumeItemListEnd
 
 \resumeProjectHeading
-{\textbf{Flask Hospital Management System}}{August 2024}
-\resumeItemListStart
-\resumeItem{Built hospital management web app using \textbf{Flask, MySQL, SQLAlchemy}}
-\resumeItem{Designed relational database schema managing patient, doctor, and appointment records across multiple tables}
-\resumeItemListEnd
-
-\resumeProjectHeading
 {\textbf{Python--MySQL Hospital Database System} $|$ \href{https://github.com/hxmz-axfn07/hospital-management-crud}{GitHub}}{October 2023}
 \resumeItemListStart
 \resumeItem{Built command-line hospital record system using \textbf{Python} and \textbf{MySQL} with automatic database and table setup}
@@ -194,7 +183,6 @@ Skilled in REST API development, database design, and backend systems with proje
     {Bachelor of Technology in Computer Science and Engineering}{New Delhi, India}
       \resumeItemListStart
       \resumeItem{\textbf{Relevant Coursework}: Data Structures, Algorithms, Database Systems, Software Engineering}
-      \resumeItem{Focused on web development, backend systems, and database-driven applications}
       \resumeItemListEnd
 
   \resumeSubheading

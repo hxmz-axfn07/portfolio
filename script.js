@@ -15,7 +15,7 @@ const content = {
   about: {
     headline: "About Me",
     description:
-      "Full-stack developer experienced in building web applications using Python, Flask, and MySQL. Skilled in REST API development, database design, and backend systems with projects in recommendation systems and data-driven applications.",
+      "Full-stack developer skilled in Python, Flask, MySQL, REST APIs, database design, and data-driven applications across NLP and recommendation systems.",
     highlights: [
       "Building full-stack web applications since 2023",
       "Passionate about clean architecture and efficient APIs",
@@ -36,30 +36,19 @@ const content = {
         "Improved usability, performance, and maintainability of the lab's digital presence",
       ],
     },
-    {
-      role: "Full-Stack Developer",
-      company: "Software Development Projects",
-      location: "New Delhi, India",
-      period: "2023 - Present",
-      bullets: [
-        "Built full-stack web applications using Python, Flask, MySQL, HTML, CSS, JavaScript",
-        "Developed REST APIs, authentication systems, and database workflows",
-        "Designed backend architecture and relational schemas using MySQL",
-        "Implemented responsive UI and managed version control with Git/GitHub",
-      ],
-    },
   ],
   projects: [
     {
       name: "BERT Sarcasm Detection Classifier",
       date: "May 2026",
       description:
-        "Fine-tuned bert-base-uncased for sarcasm detection using headline and balanced sarcasm datasets",
+        "A BERT-based sarcasm detector with FastAPI inference, browser UI, and reproducible evaluation artifacts",
       tech: ["Python", "BERT", "Transformers", "PyTorch", "Scikit-learn"],
       highlights: [
-        "Trained BertForSequenceClassification with class weighting and threshold tuning",
-        "Reached 93.77% F1, 94.06% accuracy, 0.983 ROC-AUC, and 0.979 PR-AUC",
-        "Generated confusion matrix, ROC/PR curves, training curves, and final model artifacts",
+        "Fine-tuned bert-base-uncased on News Headlines data with stratified split and weighted loss",
+        "Optimized threshold to 0.3965, reaching 93.77% F1, 94.06% accuracy, and 0.983 ROC-AUC",
+        "Built FastAPI /predict endpoint and UI returning confidence, explanations, and tags",
+        "Generated confusion matrix, ROC/PR curves, threshold-F1 curve, and training logs",
       ],
       github: "https://github.com/hxmz-axfn07/sarcasm-detection-bert",
       live: "",
@@ -107,11 +96,13 @@ const content = {
       name: "PythonMySQL Hospital Database System",
       date: "October 2023",
       description:
-        "Hospital database system with CRUD operations for patient, doctor, and appointment management",
+        "Command-line hospital record system with MySQL-backed CRUD workflows and automatic schema setup",
       tech: ["Python", "MySQL"],
       highlights: [
-        "Developed hospital database system using Python and MySQL",
-        "Implemented CRUD operations for patient, doctor, and appointment management",
+        "Created MySQL database and tables automatically at startup",
+        "Implemented CRUD workflows for doctors, nurses, workers, and patient records",
+        "Added patient admission/discharge flow with confirmation checks",
+        "Used parameterized SQL, input validation, environment credentials, and PrettyTable output",
       ],
       github: "https://github.com/hxmz-axfn07/hospital-management-crud",
       live: "",
@@ -120,7 +111,7 @@ const content = {
   skills: {
     languages: ["Python", "C", "C++", "JavaScript", "SQL"],
     web: ["Flask", "HTML", "CSS", "REST APIs", "Backend Development", "Jekyll"],
-    ml: ["NumPy", "Pandas", "Scikit-learn"],
+    ml: ["NumPy", "Pandas", "Scikit-learn", "BERT", "Transformers", "PyTorch"],
     database: ["MySQL", "SQLAlchemy"],
     tools: ["Git", "GitHub"],
     concepts: ["Data Structures", "Algorithms", "CRUD", "API Integration"],
@@ -164,9 +155,9 @@ const content = {
 
 const navItems = [
   ["ABOUT", "#about"],
+  ["SKILLS", "#skills"],
   ["EXPERIENCE", "#experience"],
   ["PROJECTS", "#projects"],
-  ["SKILLS", "#skills"],
   ["EDUCATION", "#education"],
   ["CONTACT", "#contact"],
 ];
@@ -747,9 +738,9 @@ function render() {
       <main class="p5-main">
         ${renderHero()}
         ${renderAbout()}
+        ${renderSkills()}
         ${renderExperience()}
         ${renderProjects()}
-        ${renderSkills()}
         ${renderEducation()}
         ${renderContact()}
       </main>

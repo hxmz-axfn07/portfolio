@@ -5,20 +5,20 @@
     <title>Hamza Arfin Resume</title>
     <style>
       * { box-sizing: border-box; }
-      body { color: #141414; font-family: Arial, Helvetica, sans-serif; font-size: 12.2px; line-height: 1.18; margin: 0; padding: 24px 44px; }
-      h1 { font-size: 31px; margin: 0 0 8px; text-align: center; }
-      .contact { font-family: "Courier New", monospace; font-size: 11px; margin-bottom: 12px; text-align: center; }
-      h2 { border-bottom: 2px solid #d3d3d3; font-size: 16px; margin: 15px 0 6px; padding-bottom: 2px; }
-      p { margin: 0 0 6px; }
-      .item { margin-bottom: 6px; }
+      body { color: #141414; font-family: Arial, Helvetica, sans-serif; font-size: 12px; line-height: 1.2; margin: 0; padding: 25px 44px; }
+      h1 { font-size: 31px; margin: 0 0 7px; text-align: center; }
+      .contact { font-family: "Courier New", monospace; font-size: 10.8px; margin-bottom: 12px; text-align: center; }
+      h2 { border-bottom: 2px solid #d3d3d3; font-size: 15px; margin: 13px 0 6px; padding-bottom: 2px; }
+      p { margin: 0 0 5px; }
+      .item { margin-bottom: 7px; }
       .row { display: flex; justify-content: space-between; gap: 16px; }
       .title { font-weight: 700; }
       .sub { font-style: italic; }
-      .date { color: #4d4d4d; min-width: 175px; text-align: right; }
-      ul { margin: 0 0 0 27px; padding: 0; }
+      .date { color: #4d4d4d; min-width: 170px; text-align: right; }
+      ul { margin: 0 0 0 26px; padding: 0; }
       li { margin: 1px 0; }
       strong { font-weight: 700; }
-      @media print { body { padding: 22px 38px; } }
+      @media print { body { padding: 25px 44px; } }
     </style>
   </head>
   <body>
@@ -26,7 +26,13 @@
     <div class="contact">+91 99993 52349 | arfinhamza987@gmail.com | github.com/hxmz-axfn07 | New Delhi, India</div>
 
     <h2>ABOUT</h2>
-    <p>Full-stack developer experienced in building web applications using Python, Flask, and MySQL. Skilled in REST API development, database design, and backend systems with projects in recommendation systems, NLP, and data-driven applications.</p>
+    <p>Full-stack developer skilled in Python, Flask, MySQL, REST APIs, database design, and data-driven applications across NLP and recommendation systems.</p>
+
+    <h2>SKILLS</h2>
+    <p><strong>Languages:</strong> Python, C, C++, JavaScript, SQL</p>
+    <p><strong>Web:</strong> Flask, HTML, CSS, REST APIs, Backend Development, Jekyll</p>
+    <p><strong>ML/NLP:</strong> NumPy, Pandas, Scikit-learn, BERT, Transformers, PyTorch</p>
+    <p><strong>Database:</strong> MySQL, SQLAlchemy &nbsp; <strong>Tools:</strong> Git, GitHub &nbsp; <strong>Concepts:</strong> Data Structures, Algorithms, CRUD, API Integration</p>
 
     <h2>EXPERIENCE</h2>
     <div class="item">
@@ -38,24 +44,15 @@
         <li>Improved usability, performance, and maintainability of the lab's digital presence</li>
       </ul>
     </div>
-    <div class="item">
-      <div class="row"><div><div class="title">Software Development Projects</div><div class="sub">Full-Stack Developer</div></div><div class="date">2023 - Present<br />New Delhi, India</div></div>
-      <ul>
-        <li>Built full-stack web applications using <strong>Python, Flask, MySQL, HTML, CSS, JavaScript</strong></li>
-        <li>Developed <strong>REST APIs</strong>, authentication systems, and database workflows</li>
-        <li>Designed backend architecture and relational schemas using <strong>MySQL</strong></li>
-        <li>Implemented responsive UI and managed version control with <strong>Git/GitHub</strong></li>
-      </ul>
-    </div>
 
     <h2>PROJECTS</h2>
     <div class="item">
       <div class="row"><div class="title">BERT Sarcasm Detection Classifier</div><div class="date">May 2026</div></div>
       <ul>
-        <li>Fine-tuned <strong>bert-base-uncased</strong> for sarcasm detection using headline and balanced sarcasm datasets</li>
-        <li>Trained <strong>BertForSequenceClassification</strong> with class weighting and optimized threshold tuning</li>
-        <li>Reached <strong>93.77% F1</strong>, <strong>94.06% accuracy</strong>, <strong>0.983 ROC-AUC</strong>, and <strong>0.979 PR-AUC</strong></li>
-        <li>Generated confusion matrix, ROC/PR curves, training curves, and final model artifacts</li>
+        <li>Fine-tuned <strong>bert-base-uncased</strong> on the News Headlines sarcasm dataset using stratified split and weighted loss</li>
+        <li>Optimized classification threshold to <strong>0.3965</strong>, reaching <strong>93.77% F1</strong>, <strong>94.06% accuracy</strong>, and <strong>0.983 ROC-AUC</strong></li>
+        <li>Built <strong>FastAPI</strong> inference endpoint and browser UI returning predictions, confidence scores, explanations, and tags</li>
+        <li>Generated reproducible evaluation artifacts including confusion matrix, ROC/PR curves, threshold-F1 curve, and training logs</li>
       </ul>
     </div>
     <div class="item">
@@ -74,17 +71,11 @@
       </ul>
     </div>
     <div class="item">
-      <div class="row"><div class="title">Flask Hospital Management System</div><div class="date">August 2024</div></div>
-      <ul>
-        <li>Built hospital management web app using <strong>Flask, MySQL, SQLAlchemy</strong></li>
-        <li>Designed relational database schema managing patient, doctor, and appointment records across multiple tables</li>
-      </ul>
-    </div>
-    <div class="item">
       <div class="row"><div class="title">Python-MySQL Hospital Database System</div><div class="date">October 2023</div></div>
       <ul>
-        <li>Developed hospital database system using <strong>Python</strong> and <strong>MySQL</strong></li>
-        <li>Implemented CRUD operations for patient, doctor, and appointment management</li>
+        <li>Built command-line hospital record system using <strong>Python</strong> and <strong>MySQL</strong> with automatic database and table setup</li>
+        <li>Implemented CRUD workflows for doctors, nurses, workers, and patients, including patient admission and discharge handling</li>
+        <li>Used parameterized SQL queries, input validation, environment-based credentials, and tabular console output for safer operations</li>
       </ul>
     </div>
 
@@ -93,18 +84,9 @@
       <div class="row"><div><div class="title">Jamia Hamdard University</div><div class="sub">Bachelor of Technology in Computer Science and Engineering</div></div><div class="date">2023 - 2027<br />New Delhi, India</div></div>
       <ul>
         <li><strong>Relevant Coursework:</strong> Data Structures, Algorithms, Database Systems, Software Engineering</li>
-        <li>Focused on web development, backend systems, and database-driven applications</li>
       </ul>
     </div>
     <div class="item"><div class="row"><div><div class="title">Dev Samaj Modern School - 2</div><div class="sub">Senior Secondary School</div></div><div class="date">2021 - 2023<br />New Delhi, India</div></div></div>
     <div class="item"><div class="row"><div><div class="title">Dev Samaj Modern School - 2</div><div class="sub">Secondary School</div></div><div class="date">2019 - 2021<br />New Delhi, India</div></div></div>
-
-    <h2>SKILLS</h2>
-    <p><strong>Languages:</strong> Python, C, C++, JavaScript, SQL</p>
-    <p><strong>Web:</strong> Flask, HTML, CSS, REST APIs, Backend Development, Jekyll</p>
-    <p><strong>ML/NLP:</strong> NumPy, Pandas, Scikit-learn, BERT, Transformers, PyTorch</p>
-    <p><strong>Database:</strong> MySQL, SQLAlchemy</p>
-    <p><strong>Tools:</strong> Git, GitHub</p>
-    <p><strong>Concepts:</strong> Data Structures, Algorithms, CRUD, API Integration</p>
   </body>
 </html>
