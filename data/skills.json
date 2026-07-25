@@ -1,0 +1,202 @@
+[
+  {
+    "name": "Python",
+    "display": {
+      "portfolio": true,
+      "resume": true
+    },
+    "category": "languages"
+  },
+  {
+    "name": "C",
+    "display": {
+      "portfolio": true,
+      "resume": true
+    },
+    "category": "languages"
+  },
+  {
+    "name": "C++",
+    "display": {
+      "portfolio": true,
+      "resume": true
+    },
+    "category": "languages"
+  },
+  {
+    "name": "JavaScript",
+    "display": {
+      "portfolio": true,
+      "resume": true
+    },
+    "category": "languages"
+  },
+  {
+    "name": "SQL",
+    "display": {
+      "portfolio": true,
+      "resume": true
+    },
+    "category": "languages"
+  },
+  {
+    "name": "Flask",
+    "display": {
+      "portfolio": true,
+      "resume": true
+    },
+    "category": "web"
+  },
+  {
+    "name": "HTML",
+    "display": {
+      "portfolio": true,
+      "resume": true
+    },
+    "category": "web"
+  },
+  {
+    "name": "CSS",
+    "display": {
+      "portfolio": true,
+      "resume": true
+    },
+    "category": "web"
+  },
+  {
+    "name": "REST APIs",
+    "display": {
+      "portfolio": true,
+      "resume": true
+    },
+    "category": "web"
+  },
+  {
+    "name": "Backend Development",
+    "display": {
+      "portfolio": true,
+      "resume": true
+    },
+    "category": "web"
+  },
+  {
+    "name": "Jekyll",
+    "display": {
+      "portfolio": true,
+      "resume": true
+    },
+    "category": "web"
+  },
+  {
+    "name": "NumPy",
+    "display": {
+      "portfolio": true,
+      "resume": true
+    },
+    "category": "ml"
+  },
+  {
+    "name": "Pandas",
+    "display": {
+      "portfolio": true,
+      "resume": true
+    },
+    "category": "ml"
+  },
+  {
+    "name": "Scikit-learn",
+    "display": {
+      "portfolio": true,
+      "resume": true
+    },
+    "category": "ml"
+  },
+  {
+    "name": "BERT",
+    "display": {
+      "portfolio": true,
+      "resume": true
+    },
+    "category": "ml"
+  },
+  {
+    "name": "Transformers",
+    "display": {
+      "portfolio": true,
+      "resume": true
+    },
+    "category": "ml"
+  },
+  {
+    "name": "PyTorch",
+    "display": {
+      "portfolio": true,
+      "resume": true
+    },
+    "category": "ml"
+  },
+  {
+    "name": "MySQL",
+    "display": {
+      "portfolio": true,
+      "resume": true
+    },
+    "category": "database"
+  },
+  {
+    "name": "SQLAlchemy",
+    "display": {
+      "portfolio": true,
+      "resume": true
+    },
+    "category": "database"
+  },
+  {
+    "name": "Git",
+    "display": {
+      "portfolio": true,
+      "resume": true
+    },
+    "category": "tools"
+  },
+  {
+    "name": "GitHub",
+    "display": {
+      "portfolio": true,
+      "resume": true
+    },
+    "category": "tools"
+  },
+  {
+    "name": "Data Structures",
+    "display": {
+      "portfolio": true,
+      "resume": true
+    },
+    "category": "concepts"
+  },
+  {
+    "name": "Algorithms",
+    "display": {
+      "portfolio": true,
+      "resume": true
+    },
+    "category": "concepts"
+  },
+  {
+    "name": "CRUD",
+    "display": {
+      "portfolio": true,
+      "resume": true
+    },
+    "category": "concepts"
+  },
+  {
+    "name": "API Integration",
+    "display": {
+      "portfolio": true,
+      "resume": true
+    },
+    "category": "concepts"
+  }
+]

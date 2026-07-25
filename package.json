@@ -1,0 +1,16 @@
+{
+  "name": "hamza-arfin-portfolio",
+  "private": true,
+  "version": "1.0.0",
+  "type": "module",
+  "scripts": {
+    "build": "node scripts/build.js",
+    "build:portfolio": "node scripts/buildPortfolio.js",
+    "build:resume": "node scripts/buildResume.js",
+    "build:pdf": "node scripts/generatePdf.js",
+    "validate": "node scripts/validate.js"
+  },
+  "devDependencies": {
+    "playwright": "^1.54.0"
+  }
+}

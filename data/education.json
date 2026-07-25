@@ -1,0 +1,25 @@
+[
+  {
+    "institution": "Jamia Hamdard University",
+    "degree": "Bachelor of Technology in Computer Science and Engineering",
+    "duration": "2023 - 2027",
+    "location": "New Delhi, India",
+    "details": [
+      "Relevant Coursework: Data Structures, Algorithms, Database Systems, Software Engineering"
+    ]
+  },
+  {
+    "institution": "Dev Samaj Modern School - 2",
+    "degree": "Senior Secondary School",
+    "duration": "2021 - 2023",
+    "location": "New Delhi, India",
+    "details": []
+  },
+  {
+    "institution": "Dev Samaj Modern School - 2",
+    "degree": "Secondary School",
+    "duration": "2019 - 2021",
+    "location": "New Delhi, India",
+    "details": []
+  }
+]

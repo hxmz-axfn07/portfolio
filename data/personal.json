@@ -1,0 +1,23 @@
+{
+  "name": "Hamza Arfin",
+  "initials": "HA",
+  "title": "Full-Stack Developer",
+  "email": "arfinhamza987@gmail.com",
+  "phone": "+91 99993 52349",
+  "location": "New Delhi, India",
+  "github": "https://github.com/hxmz-axfn07",
+  "linkedin": "https://www.linkedin.com/in/hxmz-axfn07/",
+  "portfolio": {
+    "tagline": "Building clean APIs, scalable backends, and useful full-stack apps.",
+    "about": "Full-stack developer skilled in Python, Flask, MySQL, REST APIs, database design, and data-driven applications across NLP and recommendation systems.",
+    "highlights": [
+      "Building full-stack web applications since 2023",
+      "Passionate about clean architecture and efficient APIs",
+      "Focused on backend systems and data-driven solutions",
+      "Currently pursuing B.Tech in Computer Science"
+    ]
+  },
+  "resume": {
+    "summary": "Full-stack developer skilled in Python, Flask, MySQL, REST APIs, database design, and data-driven applications across NLP and recommendation systems."
+  }
+}

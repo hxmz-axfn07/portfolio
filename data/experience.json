@@ -1,0 +1,32 @@
+[
+  {
+    "company": "FLAME NLP Research Lab, IIIT Delhi",
+    "role": "Undergraduate Research Intern",
+    "duration": "July 2025 - September 2025",
+    "location": "New Delhi, India",
+    "display": {
+      "portfolio": {
+        "enabled": true
+      },
+      "resume": {
+        "enabled": true
+      }
+    },
+    "portfolio": {
+      "bullets": [
+        "Developed and deployed the official lab website using Jekyll",
+        "Built a scalable static website with modular components for managing research updates, publications, and team information",
+        "Structured content using templates and data files to enable easy updates without modifying core code",
+        "Improved usability, performance, and maintainability of the lab's digital presence"
+      ]
+    },
+      "resume": {
+        "bullets": [
+          "Developed and deployed the official lab website using Jekyll",
+          "Built a scalable static website with modular components for managing research updates, publications, and team information",
+          "Structured content using templates and data files to enable easy updates without modifying core code",
+          "Improved usability, performance, and maintainability of the lab's digital presence"
+      ]
+    }
+  }
+]

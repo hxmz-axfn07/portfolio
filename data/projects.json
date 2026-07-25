@@ -1,0 +1,199 @@
+[
+  {
+    "id": "bert-sarcasm-detection-classifier",
+    "title": "BERT Sarcasm Detection Classifier",
+    "duration": "May 2026",
+    "tech": [
+      "Python",
+      "BERT",
+      "Transformers",
+      "PyTorch",
+      "Scikit-learn"
+    ],
+    "links": {
+      "github": "https://github.com/hxmz-axfn07/sarcasm-detection-bert",
+      "live": ""
+    },
+    "display": {
+      "portfolio": {
+        "enabled": true,
+        "featured": true
+      },
+      "resume": {
+        "enabled": true
+      }
+    },
+    "portfolio": {
+      "description": "A BERT-based sarcasm detector with FastAPI inference, browser UI, and reproducible evaluation artifacts",
+      "highlights": [
+        "Fine-tuned bert-base-uncased on News Headlines data with stratified split and weighted loss",
+        "Optimized threshold to 0.3965, reaching 93.77% F1, 94.06% accuracy, and 0.983 ROC-AUC",
+        "Built FastAPI /predict endpoint and UI returning confidence, explanations, and tags",
+        "Generated confusion matrix, ROC/PR curves, threshold-F1 curve, and training logs"
+      ],
+      "images": []
+    },
+      "resume": {
+        "bullets": [
+        "Fine-tuned bert-base-uncased on News Headlines data with stratified split and weighted loss",
+        "Optimized threshold to 0.3965, reaching 93.77% F1, 94.06% accuracy, and 0.983 ROC-AUC",
+        "Built FastAPI /predict endpoint and UI returning confidence, explanations, and tags",
+          "Generated reproducible evaluation artifacts including confusion matrix, ROC/PR curves, threshold-F1 curve, and training logs"
+      ]
+    }
+  },
+  {
+    "id": "hybrid-movie-recommendation-system",
+    "title": "Hybrid Movie Recommendation System",
+    "duration": "March 2026",
+    "tech": [
+      "Python",
+      "Flask",
+      "HTML",
+      "CSS",
+      "JavaScript",
+      "TMDB API"
+    ],
+    "links": {
+      "github": "https://github.com/hxmz-axfn07/movie-recommendation-system",
+      "live": ""
+    },
+    "display": {
+      "portfolio": {
+        "enabled": true,
+        "featured": true
+      },
+      "resume": {
+        "enabled": true
+      }
+    },
+    "portfolio": {
+      "description": "A recommendation platform built with Python, Flask, HTML, CSS, and JavaScript",
+      "highlights": [
+        "Implemented hybrid recommender using KNN collaborative filtering on the MovieLens dataset (100k+ ratings)",
+        "Integrated TMDB API and built REST endpoints serving movie metadata and posters"
+      ],
+      "images": []
+    },
+      "resume": {
+        "bullets": [
+          "Built a recommendation platform using Python, Flask, HTML, CSS, JavaScript",
+          "Implemented hybrid recommender using KNN collaborative filtering on the MovieLens dataset (100k+ ratings)",
+        "Integrated TMDB API and built REST endpoints serving movie metadata and posters"
+      ]
+    }
+  },
+  {
+    "id": "streamly-streaming-aggregator",
+    "title": "Streamly Streaming Aggregator",
+    "duration": "November 2025",
+    "tech": [
+      "Flask",
+      "TMDB API",
+      "Python"
+    ],
+    "links": {
+      "github": "https://github.com/hxmz-axfn07/Streamly",
+      "live": ""
+    },
+    "display": {
+      "portfolio": {
+        "enabled": true,
+        "featured": true
+      },
+      "resume": {
+        "enabled": true
+      }
+    },
+    "portfolio": {
+      "description": "A streaming search platform with real-time search suggestions and optimized API requests",
+      "highlights": [
+        "Developed streaming search platform using Flask and TMDB API",
+        "Implemented real-time search suggestions and optimized API requests with rate limiting"
+      ],
+      "images": []
+    },
+    "resume": {
+      "bullets": [
+        "Developed streaming search platform using Flask and TMDB API",
+        "Implemented real-time search suggestions and optimized API requests with rate limiting"
+      ]
+    }
+  },
+  {
+    "id": "flask-hospital-management-system",
+    "title": "Flask Hospital Management System",
+    "duration": "August 2024",
+    "tech": [
+      "Flask",
+      "MySQL",
+      "SQLAlchemy"
+    ],
+    "links": {
+      "github": "",
+      "live": ""
+    },
+    "display": {
+      "portfolio": {
+        "enabled": true,
+        "featured": false
+      },
+      "resume": {
+        "enabled": false
+      }
+    },
+    "portfolio": {
+      "description": "Hospital management web app with relational database schema for patients, doctors, and appointments",
+      "highlights": [
+        "Built hospital management web app using Flask, MySQL, SQLAlchemy",
+        "Designed relational database schema managing patient, doctor, and appointment records across multiple tables"
+      ],
+      "images": []
+    },
+    "resume": {
+      "bullets": [
+        "Built hospital management web app using Flask, MySQL, SQLAlchemy",
+        "Designed relational database schema managing patient, doctor, and appointment records across multiple tables"
+      ]
+    }
+  },
+  {
+    "id": "pythonmysql-hospital-database-system",
+    "title": "PythonMySQL Hospital Database System",
+    "duration": "October 2023",
+    "tech": [
+      "Python",
+      "MySQL"
+    ],
+    "links": {
+      "github": "https://github.com/hxmz-axfn07/hospital-management-crud",
+      "live": ""
+    },
+    "display": {
+      "portfolio": {
+        "enabled": true,
+        "featured": false
+      },
+      "resume": {
+        "enabled": true
+      }
+    },
+    "portfolio": {
+      "description": "Command-line hospital record system with MySQL-backed CRUD workflows and automatic schema setup",
+      "highlights": [
+        "Created MySQL database and tables automatically at startup",
+        "Implemented CRUD workflows for doctors, nurses, workers, and patient records",
+        "Added patient admission/discharge flow with confirmation checks",
+        "Used parameterized SQL, input validation, environment credentials, and PrettyTable output"
+      ],
+      "images": []
+    },
+      "resume": {
+        "bullets": [
+          "Built command-line hospital record system using Python and MySQL with automatic database and table setup",
+          "Implemented CRUD workflows for doctors, nurses, workers, and patients, including patient admission and discharge handling",
+          "Used parameterized SQL queries, input validation, environment-based credentials, and tabular console output for safer operations"
+      ]
+    }
+  }
+]

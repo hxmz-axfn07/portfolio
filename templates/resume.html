@@ -1,0 +1,35 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>{{NAME}} Resume</title>
+    <style>
+      * { box-sizing: border-box; }
+      @page { margin: 0; size: A4; }
+      body { color: #141414; font-family: Arial, Helvetica, sans-serif; font-size: 12px; line-height: 1.2; margin: 0; padding: 25px 44px; }
+      h1 { font-size: 31px; margin: 0 0 7px; text-align: center; }
+      .contact { font-family: "Courier New", monospace; font-size: 10.8px; margin-bottom: 12px; text-align: center; }
+      h2 { border-bottom: 2px solid #d3d3d3; font-size: 15px; margin: 13px 0 6px; padding-bottom: 2px; }
+      p { margin: 0 0 5px; }
+      .item { break-inside: avoid; margin-bottom: 7px; }
+      .row { display: flex; justify-content: space-between; gap: 16px; }
+      .title { font-weight: 700; }
+      .role { font-style: italic; }
+      .date { color: #4d4d4d; min-width: 170px; text-align: right; }
+      ul { margin: 0 0 0 26px; padding: 0; }
+      li { margin: 1px 0; }
+      strong { font-weight: 700; }
+      @media print { body { padding: 25px 44px; } }
+    </style>
+  </head>
+  <body>
+    <h1>{{NAME}}</h1>
+    <div class="contact">{{PHONE}} | <a href="mailto:{{EMAIL}}">{{EMAIL}}</a> | <a href="{{GITHUB}}">{{GITHUB_LABEL}}</a> | <a href="{{LINKEDIN}}">{{LINKEDIN_LABEL}}</a> | {{LOCATION}}</div>
+    <h2>ABOUT</h2><p>{{SUMMARY}}</p>
+    <h2>SKILLS</h2>{{SKILLS}}
+    <h2>EXPERIENCE</h2>{{EXPERIENCE}}
+    <h2>PROJECTS</h2>{{PROJECTS}}
+    <h2>EDUCATION</h2>{{EDUCATION}}
+  </body>
+</html>

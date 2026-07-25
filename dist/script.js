@@ -1,156 +1,204 @@
 const content = {
-  personal: {
-    name: "Hamza Arfin",
-    codename: "HA",
-    title: "Full-Stack Developer",
-    tagline: "Building clean APIs, scalable backends, and useful full-stack apps.",
-    email: "arfinhamza987@gmail.com",
-    location: "New Delhi, India",
-    resume_url: "resume.pdf",
+  "personal": {
+    "name": "Hamza Arfin",
+    "codename": "HA",
+    "title": "Full-Stack Developer",
+    "tagline": "Building clean APIs, scalable backends, and useful full-stack apps.",
+    "email": "arfinhamza987@gmail.com",
+    "location": "New Delhi, India",
+    "resume_url": "resume.pdf"
   },
-  socials: {
-    github: "https://github.com/hxmz-axfn07",
-    linkedin: "https://www.linkedin.com/in/hxmz-axfn07/",
+  "socials": {
+    "github": "https://github.com/hxmz-axfn07",
+    "linkedin": "https://www.linkedin.com/in/hxmz-axfn07/"
   },
-  about: {
-    headline: "About Me",
-    description:
-      "Full-stack developer skilled in Python, Flask, MySQL, REST APIs, database design, and data-driven applications across NLP and recommendation systems.",
-    highlights: [
+  "about": {
+    "headline": "About Me",
+    "description": "Full-stack developer skilled in Python, Flask, MySQL, REST APIs, database design, and data-driven applications across NLP and recommendation systems.",
+    "highlights": [
       "Building full-stack web applications since 2023",
       "Passionate about clean architecture and efficient APIs",
       "Focused on backend systems and data-driven solutions",
-      "Currently pursuing B.Tech in Computer Science",
-    ],
+      "Currently pursuing B.Tech in Computer Science"
+    ]
   },
-  experience: [
+  "experience": [
     {
-      role: "Undergraduate Research Intern",
-      company: "FLAME NLP Research Lab, IIIT Delhi",
-      location: "New Delhi, India",
-      period: "July 2025 - September 2025",
-      bullets: [
+      "role": "Undergraduate Research Intern",
+      "company": "FLAME NLP Research Lab, IIIT Delhi",
+      "location": "New Delhi, India",
+      "period": "July 2025 - September 2025",
+      "bullets": [
         "Developed and deployed the official lab website using Jekyll",
         "Built a scalable static website with modular components for managing research updates, publications, and team information",
         "Structured content using templates and data files to enable easy updates without modifying core code",
-        "Improved usability, performance, and maintainability of the lab's digital presence",
-      ],
-    },
+        "Improved usability, performance, and maintainability of the lab's digital presence"
+      ]
+    }
   ],
-  projects: [
+  "projects": [
     {
-      name: "BERT Sarcasm Detection Classifier",
-      date: "May 2026",
-      description:
-        "A BERT-based sarcasm detector with FastAPI inference, browser UI, and reproducible evaluation artifacts",
-      tech: ["Python", "BERT", "Transformers", "PyTorch", "Scikit-learn"],
-      highlights: [
+      "name": "BERT Sarcasm Detection Classifier",
+      "date": "May 2026",
+      "description": "A BERT-based sarcasm detector with FastAPI inference, browser UI, and reproducible evaluation artifacts",
+      "tech": [
+        "Python",
+        "BERT",
+        "Transformers",
+        "PyTorch",
+        "Scikit-learn"
+      ],
+      "highlights": [
         "Fine-tuned bert-base-uncased on News Headlines data with stratified split and weighted loss",
         "Optimized threshold to 0.3965, reaching 93.77% F1, 94.06% accuracy, and 0.983 ROC-AUC",
         "Built FastAPI /predict endpoint and UI returning confidence, explanations, and tags",
-        "Generated confusion matrix, ROC/PR curves, threshold-F1 curve, and training logs",
+        "Generated confusion matrix, ROC/PR curves, threshold-F1 curve, and training logs"
       ],
-      github: "https://github.com/hxmz-axfn07/sarcasm-detection-bert",
-      live: "",
+      "github": "https://github.com/hxmz-axfn07/sarcasm-detection-bert",
+      "live": ""
     },
     {
-      name: "Hybrid Movie Recommendation System",
-      date: "March 2026",
-      description:
-        "A recommendation platform built with Python, Flask, HTML, CSS, and JavaScript",
-      tech: ["Python", "Flask", "HTML", "CSS", "JavaScript", "TMDB API"],
-      highlights: [
+      "name": "Hybrid Movie Recommendation System",
+      "date": "March 2026",
+      "description": "A recommendation platform built with Python, Flask, HTML, CSS, and JavaScript",
+      "tech": [
+        "Python",
+        "Flask",
+        "HTML",
+        "CSS",
+        "JavaScript",
+        "TMDB API"
+      ],
+      "highlights": [
         "Implemented hybrid recommender using KNN collaborative filtering on the MovieLens dataset (100k+ ratings)",
-        "Integrated TMDB API and built REST endpoints serving movie metadata and posters",
+        "Integrated TMDB API and built REST endpoints serving movie metadata and posters"
       ],
-      github: "https://github.com/hxmz-axfn07/movie-recommendation-system",
-      live: "",
+      "github": "https://github.com/hxmz-axfn07/movie-recommendation-system",
+      "live": ""
     },
     {
-      name: "Streamly Streaming Aggregator",
-      date: "November 2025",
-      description:
-        "A streaming search platform with real-time search suggestions and optimized API requests",
-      tech: ["Flask", "TMDB API", "Python"],
-      highlights: [
+      "name": "Streamly Streaming Aggregator",
+      "date": "November 2025",
+      "description": "A streaming search platform with real-time search suggestions and optimized API requests",
+      "tech": [
+        "Flask",
+        "TMDB API",
+        "Python"
+      ],
+      "highlights": [
         "Developed streaming search platform using Flask and TMDB API",
-        "Implemented real-time search suggestions and optimized API requests with rate limiting",
+        "Implemented real-time search suggestions and optimized API requests with rate limiting"
       ],
-      github: "https://github.com/hxmz-axfn07/Streamly",
-      live: "",
+      "github": "https://github.com/hxmz-axfn07/Streamly",
+      "live": ""
     },
     {
-      name: "Flask Hospital Management System",
-      date: "August 2024",
-      description:
-        "Hospital management web app with relational database schema for patients, doctors, and appointments",
-      tech: ["Flask", "MySQL", "SQLAlchemy"],
-      highlights: [
+      "name": "Flask Hospital Management System",
+      "date": "August 2024",
+      "description": "Hospital management web app with relational database schema for patients, doctors, and appointments",
+      "tech": [
+        "Flask",
+        "MySQL",
+        "SQLAlchemy"
+      ],
+      "highlights": [
         "Built hospital management web app using Flask, MySQL, SQLAlchemy",
-        "Designed relational database schema managing patient, doctor, and appointment records across multiple tables",
+        "Designed relational database schema managing patient, doctor, and appointment records across multiple tables"
       ],
-      github: "",
-      live: "",
+      "github": "",
+      "live": ""
     },
     {
-      name: "PythonMySQL Hospital Database System",
-      date: "October 2023",
-      description:
-        "Command-line hospital record system with MySQL-backed CRUD workflows and automatic schema setup",
-      tech: ["Python", "MySQL"],
-      highlights: [
+      "name": "PythonMySQL Hospital Database System",
+      "date": "October 2023",
+      "description": "Command-line hospital record system with MySQL-backed CRUD workflows and automatic schema setup",
+      "tech": [
+        "Python",
+        "MySQL"
+      ],
+      "highlights": [
         "Created MySQL database and tables automatically at startup",
         "Implemented CRUD workflows for doctors, nurses, workers, and patient records",
         "Added patient admission/discharge flow with confirmation checks",
-        "Used parameterized SQL, input validation, environment credentials, and PrettyTable output",
+        "Used parameterized SQL, input validation, environment credentials, and PrettyTable output"
       ],
-      github: "https://github.com/hxmz-axfn07/hospital-management-crud",
-      live: "",
-    },
+      "github": "https://github.com/hxmz-axfn07/hospital-management-crud",
+      "live": ""
+    }
   ],
-  skills: {
-    languages: ["Python", "C", "C++", "JavaScript", "SQL"],
-    web: ["Flask", "HTML", "CSS", "REST APIs", "Backend Development", "Jekyll"],
-    ml: ["NumPy", "Pandas", "Scikit-learn", "BERT", "Transformers", "PyTorch"],
-    database: ["MySQL", "SQLAlchemy"],
-    tools: ["Git", "GitHub"],
-    concepts: ["Data Structures", "Algorithms", "CRUD", "API Integration"],
+  "skills": {
+    "languages": [
+      "Python",
+      "C",
+      "C++",
+      "JavaScript",
+      "SQL"
+    ],
+    "web": [
+      "Flask",
+      "HTML",
+      "CSS",
+      "REST APIs",
+      "Backend Development",
+      "Jekyll"
+    ],
+    "ml": [
+      "NumPy",
+      "Pandas",
+      "Scikit-learn",
+      "BERT",
+      "Transformers",
+      "PyTorch"
+    ],
+    "database": [
+      "MySQL",
+      "SQLAlchemy"
+    ],
+    "tools": [
+      "Git",
+      "GitHub"
+    ],
+    "concepts": [
+      "Data Structures",
+      "Algorithms",
+      "CRUD",
+      "API Integration"
+    ]
   },
-  education: [
+  "education": [
     {
-      institution: "Jamia Hamdard University",
-      degree: "Bachelor of Technology in Computer Science and Engineering",
-      period: "2023 - 2027",
-      location: "New Delhi, India",
-      details: [
-        "Relevant Coursework: Data Structures, Algorithms, Database Systems, Software Engineering",
-        "Focused on web development, backend systems, and database-driven applications",
-      ],
+      "institution": "Jamia Hamdard University",
+      "degree": "Bachelor of Technology in Computer Science and Engineering",
+      "period": "2023 - 2027",
+      "location": "New Delhi, India",
+      "details": [
+        "Relevant Coursework: Data Structures, Algorithms, Database Systems, Software Engineering"
+      ]
     },
     {
-      institution: "Dev Samaj Modern School - 2",
-      degree: "Senior Secondary School",
-      period: "2021 - 2023",
-      location: "New Delhi, India",
-      details: [],
+      "institution": "Dev Samaj Modern School - 2",
+      "degree": "Senior Secondary School",
+      "period": "2021 - 2023",
+      "location": "New Delhi, India",
+      "details": []
     },
     {
-      institution: "Dev Samaj Modern School - 2",
-      degree: "Secondary School",
-      period: "2019 - 2021",
-      location: "New Delhi, India",
-      details: [],
-    },
+      "institution": "Dev Samaj Modern School - 2",
+      "degree": "Secondary School",
+      "period": "2019 - 2021",
+      "location": "New Delhi, India",
+      "details": []
+    }
   ],
-  contact: {
-    headline: "Get In Touch",
-    subtext: "Have a project, internship, or collaboration in mind? Let's build something useful.",
-    formEndpoint: "https://formsubmit.co/arfinhamza987@gmail.com",
+  "contact": {
+    "headline": "Get In Touch",
+    "subtext": "Have a project, internship, or collaboration in mind? Let's build something useful.",
+    "formEndpoint": "https://formsubmit.co/arfinhamza987@gmail.com"
   },
-  footer: {
-    text: "Built for clean code, fast updates, and maintainable systems.",
-    copyright: "2025",
-  },
+  "footer": {
+    "text": "Built for clean code, fast updates, and maintainable systems.",
+    "copyright": "2026"
+  }
 };
 
 const navItems = [
@@ -721,13 +769,12 @@ function attachBehavior() {
     messages.push(data);
     localStorage.setItem("p5_messages", JSON.stringify(messages));
 
-    form.querySelector('input[name="_subject"]').value = `Portfolio calling card from ${data.name}`;
-    form.querySelector('input[name="_replyto"]').value = data.email;
-
     const submit = form.querySelector(".p5-contact__submit");
     formSubmitting = true;
     submit.disabled = true;
     submit.innerHTML = "<span>SENDING...</span>";
+    form.querySelector('input[name="_subject"]').value = `Portfolio calling card from ${data.name}`;
+    form.querySelector('input[name="_replyto"]').value = data.email;
   });
 }
 
